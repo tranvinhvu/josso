@@ -1,0 +1,25 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Atricore]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Atricore\JOSSO Isapi Agent]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Atricore\JOSSO Isapi Agent\1.8]
+"LogLevel"="trace"
+"ExtensionUri"="/josso/agent.sso"
+"LogFile"="C:\\inetpub\\josso\\log\\josso_isapi.log"
+"AgentConfigFile"="C:\\inetpub\\josso\\config\\josso-agent-config.ini"
+
+; ************************************************************************
+; UNCOMMENT ONLY WHEN RUNNING 32-bit IIS applications on 64 bit servers !!
+; ************************************************************************
+; [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Atricore]
+
+; [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Atricore\JOSSO Isapi Agent]
+
+; [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Atricore\JOSSO Isapi Agent\1.8]
+; "LogLevel"="trace"
+; "ExtensionUri"="/josso/agent.sso"
+; "LogFile"="\\tmp\\iis\\log\\josso_isapi.log"
+; "AgentConfigFile"="\\tmp\\iis\\config\\josso-agent-config.ini"
+
