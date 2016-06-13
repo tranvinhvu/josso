@@ -8,8 +8,12 @@
 </head>
 <body>
     <h1> Test JOSSO</h1>
-  
-    Username: <%= Request.ServerVariables.Get("HTTP_JOSSO_USER") %>
+  <p>
+    Username: <%= Request.ServerVariables.Get("HTTP_JOSSO_USER") %> <br/>
+    First Name: <%= Request.ServerVariables.Get("HTTP_JOSSO_USER_PROPERTY_FIRST_NAME") %><br/>
+    Last Name: <%= Request.ServerVariables.Get("HTTP_JOSSO_USER_PROPERTY_LAST_NAME") %> <br/>
+   </p>
+
     <%
         for (int i =0 ; i <  Request.ServerVariables.Count ; i++)
         {
