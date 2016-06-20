@@ -10,13 +10,16 @@ by editing this MSBuild file. In order to learn more about this please visit htt
   </PropertyGroup>
   <ItemGroup>
     <File Include="bin/sso-test.dll">
-      <publishTime>06/13/2016 16:53:09</publishTime>
+      <publishTime>06/20/2016 12:10:28</publishTime>
     </File>
     <File Include="Default.aspx">
-      <publishTime>06/13/2016 17:38:54</publishTime>
+      <publishTime>06/20/2016 12:05:38</publishTime>
+    </File>
+    <File Include="protected/index.aspx">
+      <publishTime>06/20/2016 12:10:17</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>06/13/2016 16:52:47</publishTime>
+      <publishTime>06/20/2016 12:06:32</publishTime>
     </File>
     <File Include="WebForm1.aspx">
       <publishTime>06/13/2016 16:51:57</publishTime>
