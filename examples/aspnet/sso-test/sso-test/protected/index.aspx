@@ -31,5 +31,9 @@
  
         }
      %>
+
+    <a href="http://ec2-52-29-151-100.eu-central-1.compute.amazonaws.com:8080/preauthn/modify?back_to=http://localhost/partnerapp/protected/index.aspx">
+        Edit profile
+    </a>
 </body>
 </html>
