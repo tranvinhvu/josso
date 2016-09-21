@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>josso</name>
+	<displayName><![CDATA[Josso and Prestashop Integration]]></displayName>
+	<version><![CDATA[1.0.0]]></version>
+	<description><![CDATA[Provide SSO connect via JOSSO platform]]></description>
+	<author><![CDATA[Athirat]]></author>
+	<tab><![CDATA[]]></tab>
+	<confirmUninstall><![CDATA[Are you sure you want to delete all josso points and customer history?]]></confirmUninstall>
+	<is_configurable>0</is_configurable>
+	<need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>
