@@ -56,9 +56,9 @@ global $josso_agentBasecode, $josso_gatewayLoginUrl, $josso_gatewayLogoutUrl
 
 // JOSSO 2 aplliance urls
 //$josso_gatewayLoginUrl = 'http://ec2-52-29-151-100.eu-central-1.compute.amazonaws.com:8081/IDBUS/ATH-DB/APACHE/JOSSO/SSO/REDIR';
-$josso_gatewayLoginUrl = 'http://ec2-52-29-151-100.eu-central-1.compute.amazonaws.com:8081/IDBUS/ATH-DB/SP5/SSO/SSO/REDIR';
+$josso_gatewayLoginUrl = 'http://ec2-52-29-151-100.eu-central-1.compute.amazonaws.com:8081/IDBUS/ATH-DB/SP8/SSO/SSO/REDIR';
 //$josso_gatewayLogoutUrl = 'http://ec2-52-29-151-100.eu-central-1.compute.amazonaws.com:8081/IDBUS/ATH-DB/APACHE/JOSSO/SLO/REDIR';
-$josso_gatewayLogoutUrl = 'http://ec2-52-29-151-100.eu-central-1.compute.amazonaws.com:8081/IDBUS/ATH-DB/SP5/SSO/SLO/REDIR';
+$josso_gatewayLogoutUrl = 'http://ec2-52-29-151-100.eu-central-1.compute.amazonaws.com:8081/IDBUS/ATH-DB/SP8/SSO/SLO/REDIR';
 
 $josso_sessionManagerServicePath = 'IDBUS/ATH-DB/APACHE/JOSSO/SSOSessionManager/SOAP';
 $josso_identityManagerServicePath = 'IDBUS/ATH-DB/APACHE/JOSSO/SSOIdentityManager/SOAP';
@@ -68,14 +68,14 @@ $josso_identityProviderServicePath = 'IDBUS/ATH-DB/APACHE/JOSSO/SSOIdentityProvi
 $josso_endpoint = 'http://ec2-52-29-151-100.eu-central-1.compute.amazonaws.com:8081';
 //if $josso_wsdl_url is defined $josso_endpoint is ignored
 //it's used for josso2 only
-$josso_wsdl_url = 'http://localhost/prestashop/wsdl.php';
+$josso_wsdl_url = 'http://ec2-52-57-22-204.eu-central-1.compute.amazonaws.com/wsdl.php';
 // essential for josso2, partner app id must be defined
-$josso_partner_app_ids = array('/prestashop'=>'SP5');
+$josso_partner_app_ids = array('/'=>'SP8');
 
 // This could be also "/", it points to the path where JOSSO code is found, 
 // for example for [http://myhost.com/partnerapp1/josso-security-check.php] use /partnerapp1.
 
-$josso_agentBasecode = "/prestashop";
+$josso_agentBasecode = "";
 
 
 $josso_proxyhost = '';
