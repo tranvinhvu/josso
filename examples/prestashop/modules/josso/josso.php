@@ -29,6 +29,10 @@ class Josso extends Module{
 		return parent::install() && $this->registerHook('actionCustomerLogoutAfter');
 	}
 	
+	public function uninstall()
+	{
+		return parent::uninstall();
+	}
 
 	public function hookActionCustomerLogoutAfter($params){
 		forceRedirect(jossoCreateLogoutUrl(null));
